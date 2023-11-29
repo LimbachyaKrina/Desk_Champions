@@ -1,0 +1,10 @@
+header {
+    height: 20vh;
+    width: 100vw;
+
+    display: flex;
+}
+
+#nav-logo {
+    size: 10% 10%;
+}
