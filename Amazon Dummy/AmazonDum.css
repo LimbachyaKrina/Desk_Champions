@@ -1,6 +1,10 @@
 header {
-    height: 20%;
+    height: 10%;
     width: 100%;
+}
+
+#nav-belt-1 {
+    height: 10%;
 }
 
 .nav-left {
@@ -8,8 +12,8 @@ header {
 }
 
 #nav-logo {
-    height: 10%;
-    width: 10%;
+    height: 7%;
+    width: 7%;
     margin: 3px 10px;
 }
 
