@@ -1,10 +1,28 @@
 header {
-    height: 20vh;
-    width: 100vw;
+    height: 10%;
+    width: 100%;
+}
 
+#nav-belt-1 {
+    height: 10%;
+}
+
+.nav-left {
     display: flex;
 }
 
 #nav-logo {
-    size: 10% 10%;
+    height: 7%;
+    width: 7%;
+    margin: 3px 10px;
+}
+
+#nav-belt-2 {
+    display: flex;
+    color: white;
+    gap: 1rem;
+}
+
+.nav-belt-2-links {
+    border: solid white;
 }
