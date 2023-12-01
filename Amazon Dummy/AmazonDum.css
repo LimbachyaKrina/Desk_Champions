@@ -32,3 +32,72 @@ header {
 .nav-belt-2-links {
     border: solid white;
 }
+}
+/* Footer */
+footer{
+    margin-top: 15px;
+    
+}
+.foot-panel1{
+    background-color: rgb(55,71,90);
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: rgb(35,47,62);
+    color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: rgb(143,147,154);
+}
+.foot-panel3{
+    background-color:rgb(35,47,62);
+    color: white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image:url("main_page_logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 200px;
+}
+.foot-panel4{
+    background-color: rgb(19,26,34);
+    color : white;
+    height: 100px;
+    font-size:0.7rem;
+    text-align: center;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: rgb(143,147,154);
+}
+.pages{
+    padding-top: 25px;
+}
+.copyright{
+    padding-top: 5px;
+}
