@@ -12,8 +12,8 @@ header {
 }
 
 #nav-logo {
-    /* height: 50%;
-    width: 50%; */
+    height: 7%;
+    width: 7%;
     margin: 3px 10px;
 }
 
@@ -29,4 +29,6 @@ header {
 
 .nav-belt-2-links {
     border: 1px solid white; /*remove after final commit */
+.nav-belt-2-links {
+    border: solid white;
 }
