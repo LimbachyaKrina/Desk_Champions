@@ -2,7 +2,7 @@ header {
     height: 10%;
     width: 100%;
 }
-/* Find me if you can */
+
 #nav-belt-1 {
     height: 10%;
 }
@@ -23,6 +23,12 @@ header {
     gap: 1rem;
 }
 
+#nav-left{
+    display: flex;
+}
+
+.nav-belt-2-links {
+    border: 1px solid white; /*remove after final commit */
 .nav-belt-2-links {
     border: solid white;
 }
