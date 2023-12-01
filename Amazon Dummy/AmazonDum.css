@@ -20,9 +20,11 @@ header {
 #nav-belt-2 {
     display: flex;
     color: white;
-    gap: 1rem;
+    height: 2rem;
+    /* gap: 1rem; */
 }
 
 .nav-belt-2-links {
-    border: solid white;
+    border: 1px solid white;
+    margin-left: 1rem;
 }
