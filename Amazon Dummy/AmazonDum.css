@@ -12,19 +12,21 @@ header {
 }
 
 #nav-logo {
-    height: 7%;
-    width: 7%;
+    /* height: 50%;
+    width: 50%; */
     margin: 3px 10px;
 }
 
 #nav-belt-2 {
     display: flex;
     color: white;
-    height: 2rem;
-    /* gap: 1rem; */
+    gap: 1rem;
+}
+
+#nav-left{
+    display: flex;
 }
 
 .nav-belt-2-links {
-    border: 1px solid white;
-    margin-left: 1rem;
+    border: 1px solid white; /*remove after final commit */
 }
