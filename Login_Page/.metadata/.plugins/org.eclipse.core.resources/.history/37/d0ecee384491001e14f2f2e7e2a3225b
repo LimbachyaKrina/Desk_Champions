@@ -1,0 +1,38 @@
+package com.uniquedeveloper.registration;
+
+import java.io.IOException;
+/
+import java.sql.*;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class RegistrationServlet
+ */
+@WebServlet("/register")
+public class RegistrationServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+       
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+			
+		String uname = request.getParameter("name");
+		String uemail = request.getParameter("email");
+		String umobile = request.getParameter("contact");
+		String upwd = request.getParameter("pass");
+		System.out.println(uname);
+		System.out.println(uemail);
+		System.out.println(umobile);
+		System.out.println(upwd);
+		
+		try {
+			 Class.forName("org.postgresql.Driver");
+		       Connection con = DriverManager.getConnection(
+		                "jdbc:postgresql://localhost:5432/Online_Shopping_System", "postgres", "1234");
+		}catch(Exception e) {
+			
+		}
+	}
+}
