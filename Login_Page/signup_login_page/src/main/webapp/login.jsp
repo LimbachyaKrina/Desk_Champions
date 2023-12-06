@@ -80,12 +80,16 @@
 	<script src="js/main.js"></script>
 	
 	<script type="text/javascript">
-	  var status = document.getElementById("status").value;
-	  if (status == "failed") {
-	    swal("Sorry", "Wrong UserName or password", "error");
-	  }else if(status == "success"){
-		  swal("congratulations ","Login Successful","success");
-	  }
+	  document.addEventListener('DOMContentLoaded', function() {
+		    var status = document.getElementById("status").value;
+		    if (status) {
+		      if (status === "failed") {
+		        swal("Sorry", "Wrong UserName or password", "error");
+		      } else if (status === "success") {
+		        swal("Congratulations", "Login Successful", "success");
+		      }
+		    }
+		  });
 </script>
 </body>
 </html>
