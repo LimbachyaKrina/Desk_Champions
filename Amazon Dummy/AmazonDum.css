@@ -64,40 +64,105 @@ ul a{
     color: rgb(143,147,154);
 }
 .foot-panel3{
-    background-color:rgb(35,47,62);
+    background-color: rgb(35, 47, 62);
     color: white;
     border-top: 0.5px solid white;
-    height: 90px;
+    text-align: center;
+    padding: 10px 0;
+}
+.image-container {
+    margin-right: 10px;
+}
+.image-and-dropdown{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
-.logo{
-    background-image:url("main_page_logo.png");
-    background-size: cover;
-    height: 70px;
-    width: 200px;
-}
+ 
+  img {
+     max-width: 100%;
+    max-height: 30%; 
+    display: block;
+    margin: auto;
+  }
+  
 .foot-panel4{
     background-color: rgb(19,26,34);
     color : white;
-    height: 100px;
+    height: 200px;
     font-size:0.7rem;
     text-align: center;
     justify-content: space-evenly;
 }
-ul{
-    margin-top: 10px;
-}
-ul a{
-    display: block;
-    font-size: 0.85rem;
-    margin-top: 10px;
-    color: rgb(143,147,154);
+ul {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 600px; 
+        text-align: left;
 }
 .pages{
     padding-top: 25px;
 }
 .copyright{
     padding-top: 5px;
+}
+.countries_list {
+    display: flex;
+    justify-content: center;
+}
+.countries li {
+    margin: 5px;
+    list-style: none;
+}
+.countries {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px; 
+    text-align: center;
+}
+.language-dropdown {
+    margin-top: 10px;
+}
+
+#language-select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+
+.table11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.col {
+    flex: 0 0 calc(23% - 20px); 
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.col a {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.col p {
+    margin: 0;
 }
