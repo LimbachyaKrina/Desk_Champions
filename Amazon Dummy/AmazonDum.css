@@ -41,7 +41,7 @@ footer{
 .foot-panel1{
     background-color: rgb(55,71,90);
     color: white;
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +50,7 @@ footer{
 .foot-panel2{
     background-color: rgb(35,47,62);
     color: white;
-    height: 300px;
+    height: 275px;
     display: flex;
     justify-content: space-evenly;
 }
