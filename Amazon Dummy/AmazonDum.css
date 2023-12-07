@@ -41,7 +41,11 @@ footer{
 .foot-panel1{
     background-color: rgb(55,71,90);
     color: white;
+/* <<<<<<< main */
+    height: 40px;
+/* ======= */
     height: 50px;
+/* >>>>>>> JD_branch(main) */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +54,11 @@ footer{
 .foot-panel2{
     background-color: rgb(35,47,62);
     color: white;
+/* <<<<<<< main */
+    height: 275px;
+/* ======= */
     height: 300px;
+/* >>>>>>> JD_branch(main) */
     display: flex;
     justify-content: space-evenly;
 }
@@ -64,6 +72,35 @@ ul a{
     color: rgb(143,147,154);
 }
 .foot-panel3{
+/* <<<<<<< main */
+    background-color: rgb(35, 47, 62);
+    color: white;
+    border-top: 0.5px solid rgb(48,59,74);
+    text-align: center;
+    padding: 10px 0;
+}
+.image-container {
+    margin-right: 10px;
+}
+.image-and-dropdown{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+ 
+  img {
+     max-width: 100%;
+    max-height: 30%; 
+    display: block;
+    margin: auto;
+  }
+  
+.foot-panel4{
+    background-color: rgb(19,26,34);
+    color : white;
+    height: 200px;
+/* ======= */
     background-color:rgb(35,47,62);
     color: white;
     border-top: 0.5px solid white;
@@ -82,10 +119,18 @@ ul a{
     background-color: rgb(19,26,34);
     color : white;
     height: 100px;
+/* >>>>>>> JD_branch(main) */
     font-size:0.7rem;
     text-align: center;
     justify-content: space-evenly;
 }
+/* <<<<<<< main */
+ul {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 600px; 
+        text-align: left;
+=======
 ul{
     margin-top: 10px;
 }
@@ -94,10 +139,74 @@ ul a{
     font-size: 0.85rem;
     margin-top: 10px;
     color: rgb(143,147,154);
+/* >>>>>>> JD_branch(main) */
 }
 .pages{
     padding-top: 25px;
 }
 .copyright{
     padding-top: 5px;
+/* <<<<<<< main */
 }
+.countries_list {
+    display: flex;
+    justify-content: center;
+}
+.countries li {
+    margin: 5px;
+    list-style: none;
+}
+.countries {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 800px; 
+    text-align: center;
+}
+.language-dropdown {
+    margin-top: 10px;
+}
+
+#language-select {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    border: 1px solid #ccc;
+}
+
+
+.table11 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.col {
+    flex: 0 0 calc(23% - 20px); 
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.col a {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.col p {
+    margin: 0;
+}
+=======
+}
+/* >>>>>>> JD_branch(main) */
