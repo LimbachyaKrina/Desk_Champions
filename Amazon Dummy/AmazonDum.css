@@ -1,26 +1,42 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
 header {
-    height: 10%;
+    height: 2%;
     width: 100%;
+}
+
+a{
+    text-decoration: none;
 }
 
 #nav-belt-1 {
     height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    color: rgb(255, 254, 254);
 }
 
+
+/* nav left css */
 .nav-left {
     display: flex;
+    gap: "10px";
 }
 
 #nav-logo {
-    height: 7%;
-    width: 7%;
-    margin: 3px 10px;
+    width: 90%;
+    margin: 5px;
+    padding: 2px 3px 0 6px;
 }
 
-#nav-belt-2 {
-    display: flex;
-    color: white;
-    gap: 1rem;
+#nav-logo-link{
+    padding: 0;
+    margin: 0;
 }
 
 #nav-left{
@@ -29,10 +45,166 @@ header {
 
 .nav-belt-2-links {
     border: 1px solid white; /*remove after final commit */
+}
 .nav-belt-2-links {
+    color: rgb(255, 254, 254);
+}
+
+/* nav left css */
+
+/* nav middle css */
+
+/* #nav-search-middle{
+    display: flex;
+    gap: 0;
+    justify-content: center;
     border: solid white;
 }
+<<<<<<< HEAD
 }
+=======
+
+#nav-search .nav-search-dropdown{
+    margin: 0;
+    top: -1;
+    margin: 0;
+}
+
+#nav-search-box-3{
+    padding-left: 10px;
+} */
+
+#nav-search-middle{
+    display: flex;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link-selected::selection{
+    border: 5px rgb(255, 147, 15) solid;
+}
+
+#nav-search-box-1{
+    padding: 0;
+}
+
+#nav-search-box-1>select{
+    background-color: rgb(230, 231, 231);
+    padding: 14px 0;
+    border-radius: 5px 0 0 5px;
+    width: auto;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: inherit;
+    line-height: inherit;
+}
+
+#nav-search-box-3{
+    padding: 14px;
+    top:5px;
+    background-color: rgb(255, 188, 105);
+    border-radius: 0 5px 5px 0;
+}
+
+#nav-search-box-3:hover{
+    background-color: rgb(255, 147, 15);
+}
+
+#nav-search-box-2>input{
+    width: 10em;
+    box-decoration-break: none;
+    padding: 14px 20px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+
+/* nav middle css */
+
+/* nav right css */
+
+.nav-right{
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 17px;
+    gap: 1rem;
+}
+
+.nav-right-links{
+    margin: auto;
+    /* padding:; */
+    color: rgb(255, 254, 254);
+    height: 100%;
+}
+
+/* #acc-list{
+    /* display: flex; 
+    align-items: center;
+    margin: auto;
+    color:rgb(255, 254, 254);
+} */
+
+#acc-list-line-1{
+    font-size: small;
+}
+
+#acc-list-line-2 {
+    font-weight: bold;
+}
+
+
+/* nav right css */
+
+/* bottom nav belt css */
+#nav-belt-2 {
+    display: flex;
+    color: rgb(255, 254, 254);
+    position: left;
+    align-items: center;
+}
+
+.nav-belt-2-links>a {
+    /* border: 1px solid white; remove after final commit */
+    color: rgb(255, 254, 254);
+}
+
+.nav-belt-2-links{
+    margin-top: 1;
+    padding: 10px 5px;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+/* bottom nav belt css */
+
+/* general css */
+
+#all-link{
+    margin-left: 15px;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 2px solid rgb(255, 254, 254);
+}
+
+select{
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* general css */
+
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
 /* Footer */
 footer{
     margin-top: 15px;
@@ -41,7 +213,15 @@ footer{
 .foot-panel1{
     background-color: rgb(55,71,90);
     color: white;
+<<<<<<< HEAD
     height: 40px;
+=======
+/* <<<<<<< main */
+    height: 40px;
+/* ======= */
+    height: 50px;
+/* >>>>>>> JD_branch(main) */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +230,15 @@ footer{
 .foot-panel2{
     background-color: rgb(35,47,62);
     color: white;
+<<<<<<< HEAD
     height: 275px;
+=======
+/* <<<<<<< main */
+    height: 275px;
+/* ======= */
+    height: 300px;
+/* >>>>>>> JD_branch(main) */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
     display: flex;
     justify-content: space-evenly;
 }
@@ -64,6 +252,10 @@ ul a{
     color: rgb(143,147,154);
 }
 .foot-panel3{
+<<<<<<< HEAD
+=======
+/* <<<<<<< main */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
     background-color: rgb(35, 47, 62);
     color: white;
     border-top: 0.5px solid rgb(48,59,74);
@@ -91,21 +283,65 @@ ul a{
     background-color: rgb(19,26,34);
     color : white;
     height: 200px;
+<<<<<<< HEAD
+=======
+/* ======= */
+    background-color:rgb(35,47,62);
+    color: white;
+    border-top: 0.5px solid white;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image:url("main_page_logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 200px;
+}
+.foot-panel4{
+    background-color: rgb(19,26,34);
+    color : white;
+    height: 100px;
+/* >>>>>>> JD_branch(main) */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
     font-size:0.7rem;
     text-align: center;
     justify-content: space-evenly;
 }
+<<<<<<< HEAD
+=======
+/* <<<<<<< main */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
 ul {
         padding: 0;
         margin: 0 auto;
         max-width: 600px; 
         text-align: left;
+<<<<<<< HEAD
+=======
+=======
+ul{
+    margin-top: 10px;
+}
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: rgb(143,147,154);
+/* >>>>>>> JD_branch(main) */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
 }
 .pages{
     padding-top: 25px;
 }
 .copyright{
     padding-top: 5px;
+<<<<<<< HEAD
+=======
+/* <<<<<<< main */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
 }
 .countries_list {
     display: flex;
@@ -166,3 +402,9 @@ ul {
 .col p {
     margin: 0;
 }
+<<<<<<< HEAD
+=======
+=======
+}
+/* >>>>>>> JD_branch(main) */
+>>>>>>> fa882623370a1d8903a77b0179a6d1f6dca67aea
